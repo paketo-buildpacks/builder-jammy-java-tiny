@@ -5,7 +5,7 @@
 This builder uses the [Paketo Jammy Tiny
 Stack](https://github.com/paketo-buildpacks/jammy-tiny-stack) (Ubuntu Jammy
 Jellyfish build image, distroless-like run image) and contains 
-***only Java composite buildpacks**. To use this builder, 
+**only Java composite buildpacks**. To use this builder, 
 you must specify buildpacks at build
 time using whatever mechanisms your CNB platform of choice offers.
 
