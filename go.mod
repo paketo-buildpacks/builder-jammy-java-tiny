@@ -1,8 +1,6 @@
 module github.com/paketo-buildpacks/builder-jammy-java-tiny
 
-go 1.23.0
-
-toolchain go1.23.1
+go 1.23.2
 
 require (
 	github.com/onsi/gomega v1.34.2
