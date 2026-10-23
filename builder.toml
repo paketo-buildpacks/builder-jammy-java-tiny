@@ -1,27 +1,27 @@
 description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-like run image) with only Java buildpacks included. To use, specify buildpacks at build time."
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/java-native-image:14.14.0"
-  version = "14.14.0"
+  uri = "docker://docker.io/paketobuildpacks/java-native-image:14.14.1"
+  version = "14.14.1"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/java:22.7.0"
-  version = "22.7.0"
+  uri = "docker://docker.io/paketobuildpacks/java:22.7.1"
+  version = "22.7.1"
 
 [lifecycle]
-  version = "0.21.25"
+  version = "0.21.26"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/java-native-image"
-    version = "14.14.0"
+    version = "14.14.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/java"
-    version = "22.7.0"
+    version = "22.7.1"
 
 [stack]
   build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.189"
