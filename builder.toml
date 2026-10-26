@@ -5,8 +5,8 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "14.14.2"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/java:22.7.1"
-  version = "22.7.1"
+  uri = "docker://docker.io/paketobuildpacks/java:22.7.2"
+  version = "22.7.2"
 
 [lifecycle]
   version = "0.21.26"
@@ -21,7 +21,7 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/java"
-    version = "22.7.1"
+    version = "22.7.2"
 
 [stack]
   build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.191"
